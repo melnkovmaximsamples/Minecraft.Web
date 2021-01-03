@@ -1,8 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Главная";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+[<a asp-controller="Account" asp-action="Donate">Донат</a>]
+@if (User.Identity.IsAuthenticated)
+{
+    <text>
+        <a asp-controller="Account" asp-action="Logout">Выйти</a>
+    </text>
+}
+else
+{
+    <text>
+        <a asp-controller="Account" asp-action="Login">Войти</a>
+    </text>
+}

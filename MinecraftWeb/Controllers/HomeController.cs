@@ -22,9 +22,9 @@ namespace Minecraft.Web.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Login()
         {
-            return View();
+            return RedirectToAction("Index");
         }
 
     }

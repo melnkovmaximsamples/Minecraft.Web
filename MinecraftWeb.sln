@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minecraft.Data", "Minecraft
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minecraft.Core", "Minecraft.Core\Minecraft.Core.csproj", "{A3417A31-386A-42B9-8F96-4319BB2A4BE6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityModule.Shared", "..\IdentityModule\IdentityModule.Shared\IdentityModule.Shared.csproj", "{2E5E0952-AA87-4879-B167-3C28147A2B63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A3417A31-386A-42B9-8F96-4319BB2A4BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3417A31-386A-42B9-8F96-4319BB2A4BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3417A31-386A-42B9-8F96-4319BB2A4BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5E0952-AA87-4879-B167-3C28147A2B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5E0952-AA87-4879-B167-3C28147A2B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5E0952-AA87-4879-B167-3C28147A2B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5E0952-AA87-4879-B167-3C28147A2B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
